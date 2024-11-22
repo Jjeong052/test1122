@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+html{
+  font-size: 10px; /*기본 사이즈를 10px로 고정하고 rem단위 사용*/
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Noto Serif KR", serif; /*구글 웹폰트에서 확인가능*/
+  font-size: 1.6rem;
+  line-height: 1.35;
+  color: #000;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+ol, ul{
+  list-style: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+address, em{
+  font-style: normal;
+}
+caption, legend{
+  display: none;
+}
+select, input, fieldset{
+  vertical-align: top;
+}
+input{
+  outline: none;
+}
+img{
+  vertical-align: top;
+  border: 0;
+}
